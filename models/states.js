@@ -15,9 +15,9 @@ module.exports = (sequelize, DataTypes) => {
   }
   States.init({
     name: DataTypes.STRING,
-    visted: DataTypes.BOOLEAN,
+    visited: DataTypes.BOOLEAN,
     lat: DataTypes.FLOAT,
-    long: DataTypes.FLOAT,
+    lon: DataTypes.FLOAT,
     zoom: DataTypes.INTEGER
   }, {
     sequelize,
