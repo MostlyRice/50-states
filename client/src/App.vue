@@ -1,6 +1,12 @@
 <template>
 <div>
   <page-header></page-header>
+  <div>
+    <p>To Do - App Content</p>
+   </div>
+    <div>
+      <p>To Do - links to different parts of the site</p>
+    </div>
   <page-footer></page-footer>
 </div>
 </template>
