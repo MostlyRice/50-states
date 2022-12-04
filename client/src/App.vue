@@ -4,6 +4,7 @@
   <div>
     <p>To Do - App Content</p>
    </div>
+   <state-list></state-list>
     <div>
       <p>To Do - links to different parts of the site</p>
     </div>
@@ -14,12 +15,14 @@
 <script>
 import PageHeader from '@/components/PageHeader.vue'
 import PageFooter from '@/components/PageFooter.vue'
+import StateList from './components/StateList.vue'
 
 export default {
   name: 'App',
   components: {
     PageHeader,
-    PageFooter
+    PageFooter,
+    StateList
   },
   mounted() {
     //this.$stateService.getAllStates().then( states => console.log(states))
