@@ -2,7 +2,7 @@
     <div>
         <div>
             <p v-for="state in states" v-bind:key="state.name">
-            {{ state }}
+            {{ state.name }}
             </p>
         </div>
     </div>
@@ -24,7 +24,6 @@
             fetchAllStates() {
                 this.$stateService.getAllStates().then ( states => {
                     this.states = states
-                    console.log(states)
                 })
                 .catch( err => {
                     alert('Sorry, can\'t fetch state list')

@@ -1,13 +1,7 @@
 <template>
 <div>
   <page-header></page-header>
-  <div>
-    <p>To Do - App Content</p>
-   </div>
-   <state-list></state-list>
-    <div>
-      <p>To Do - links to different parts of the site</p>
-    </div>
+  <router-view></router-view>
   <page-footer></page-footer>
 </div>
 </template>
