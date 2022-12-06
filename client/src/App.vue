@@ -1,9 +1,9 @@
 <template>
-<div>
-  <page-header></page-header>
-  <router-view></router-view>
-  <page-footer></page-footer>
-</div>
+  <div>
+    <page-header></page-header>
+    <router-view></router-view>
+    <page-footer></page-footer>
+  </div>
 </template>
 
 <script>
@@ -17,9 +17,6 @@ export default {
     PageHeader,
     PageFooter,
     StateList
-  },
-  mounted() {
-    //this.$stateService.getAllStates().then( states => console.log(states))
   }
 }
 </script>
@@ -31,6 +28,5 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
 </style>
